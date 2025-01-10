@@ -1,3 +1,4 @@
-export const Traft_Login_Api = "http://localhost:8000/login";
-export const Traft_Register_Api = "http://localhost:8000/register";
-export const Traft_Get_Api = "http://localhost:8000/getData";
+const baseurl = "https://croxo-back.vercel.app/";
+export const Traft_Login_Api = baseurl + "login";
+export const Traft_Register_Api = baseurl + "register";
+export const Traft_Get_Api = baseurl + "getData";
