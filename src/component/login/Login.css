@@ -1,0 +1,141 @@
+.logincontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.leftPan {
+  background-color: rgb(243, 243, 250);
+  width: 61%;
+  padding: 1em 0px;
+}
+
+.registerLeftPan {
+  background-color: rgb(243, 243, 250);
+  width: 61%;
+  padding: 1em 0px;
+  height: 95.5vh;
+}
+
+.leftPanBg {
+  background-image: url("../../images/login_leftPan.png");
+  width: 100%;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.registerleftPanBg {
+  background-image: url("../../images/registerPageBg.png");
+  width: 100%;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.rightPan {
+  width: 39%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100vh;
+}
+
+.rightPanContainer {
+  padding: 0px 2.5em;
+  margin-top: 1.8em;
+}
+
+.registerRightPanContainer {
+  padding: 0px 2.5em;
+  margin-top: 3.8em;
+}
+
+.rightPanContainer form {
+  margin-top: 1.5em;
+  padding: 0em 0.5em;
+}
+
+.registerRightPanContainer form {
+  margin-top: 1.5em;
+  padding: 0em 0.5em;
+}
+
+.banner {
+  text-align: start;
+}
+
+.banner img {
+  width: 40%;
+}
+
+.bannerTitle {
+  text-align: start;
+  font-size: 1.25em;
+  color: rgb(96, 93, 93);
+  margin: 0px 0.5em;
+}
+
+.bannerDesc {
+  text-align: start;
+  font-size: 1.1em;
+  color: rgb(152, 152, 148);
+  margin: 0px 0.5em;
+}
+
+.registerBannerDesc {
+  text-align: start;
+  font-size: 1.1em;
+  color: rgb(152, 152, 148);
+  margin: 0px 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.otherOperation {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.6em 0;
+  justify-content: space-between;
+}
+.otherOperation a {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #7c7cff;
+}
+
+.createAccountLink {
+  font-size: 0.9em;
+  /* color:rgb(42, 168, 194) */
+  color: rgb(152, 152, 148);
+  text-align: center;
+}
+
+.createAccountLink a {
+  color: #7c7cff;
+  text-decoration: none;
+}
+
+.loginOptions {
+  margin: 0.5em 0em;
+  text-align: center;
+}
+
+.policy {
+  font-size: 0.8em;
+}
+
+.policy a {
+  text-decoration: none;
+}
+
+.loginError {
+  font-size: 0.8em;
+  color: red;
+  margin-top: -1.3em;
+}

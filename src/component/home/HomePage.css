@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+.dcontainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.dleftPan {
+  width: 20%;
+  background-color: black;
+}
+
+.drightPan {
+  width: 80%;
+  background-color: black;
+  padding: 0 1em 1em 0;
+}
+
+.dnavColumn {
+  background-color: black;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.dnavColumnIcon {
+  display: flex;
+  margin-right: 1em;
+}
+
+.dselectedMenu {
+  color: white !important;
+  background: #262626;
+}
+
+.dmenuContainer {
+  color: #c3c3c3;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  padding: 7px 23px;
+  border-radius: 0.7em;
+  cursor: pointer;
+}
+
+.dlogoConatiner {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+  margin-top: 1em;
+}
+.dbrandName {
+  color: yellow;
+  font-size: 1.8em;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 8%;
+  margin-left: 2em;
+}
+
+.dbrandContainer {
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.dbrandSubContainer {
+  display: flex;
+  width: 100%;
+}
+
+.dsearchBox {
+  background-color: #6a6a6aa8;
+  display: flex;
+  width: 45%;
+  border-radius: 1em;
+  margin-right: 20%;
+  cursor: pointer;
+}
+
+.dsearchBoxIcon {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 0;
+  color: #c3c3c3;
+}
+
+.dnavbarIconContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15%;
+}
+
+.dDashboardDetailsContainer {
+  background-color: #1a1a1a;
+  height: 82%;
+  border-radius: 2em;
+  padding: 1.5em;
+}
+
+.dBalanceHeader {
+  color: white;
+  margin-left: 0.5em;
+}
+
+.drow1 {
+  padding: 0;
+}
+
+.dBalanceDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dBalanceAmountDetails {
+  display: flex;
+  color: white;
+  font-size: 2em;
+}
+
+.dBalanceAmountIcon {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.dBalanceAmount {
+  margin-top: -3px;
+}
+
+.decimal {
+  font-size: 0.5em;
+  color: grey;
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+}
+.dbalanceGrow {
+  display: flex;
+  font-size: 0.7em;
+}
+
+.dbBalanceDayWise {
+  padding: 0 2em;
+  color: white;
+  border-right: 1px solid grey;
+  margin-top: 7px;
+}
+.drow2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0em;
+}
+.cryptoBox {
+  background-color: black;
+  width: 22%;
+  border-radius: 2em;
+  padding: 1em 0.8em 0em 0.8em;
+}
+.cryptoBoxRow1 {
+  display: flex;
+  justify-content: space-between;
+}
+.cryptoBoxBTCIcon {
+  border-radius: 50%;
+  background-color: #373737;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+}
+.cryptoBoxArrow {
+  border-radius: 50%;
+  background-color: #1be45e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+}
+.cryptoboxleftPan {
+  display: flex;
+}
+.cryptoBoxDetail {
+  margin-left: 1em;
+}
+.btcPriceTrend {
+  color: white;
+  display: flex;
+  margin-top: 5px;
+}
+
+.btcPriceTrendDollar {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.btcPriceTrendAmount {
+  margin-top: -2px;
+}
+
+.btcTrendPercnt {
+  font-size: 0.8em;
+  color: #02ff02;
+  margin-top: 7px;
+  margin-left: 4px;
+}
+.btcchartdiv {
+  margin-left: 2em;
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.drow3 {
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.drow3left {
+  background-color: yellow;
+  width: 30%;
+  border-radius: 1em;
+  padding-top: 17px;
+}
+.drow3right {
+  width: 68%;
+}
+
+.chartimg {
+  width: 100%;
+  height: 100%;
+}
+.portfolioHeading {
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  font-family: roboto;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5em;
+}
+.pfoliocontainer {
+  display: flex;
+  padding: 0.9em 1.5em;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.pcryptoBoxDetail {
+  margin-left: 3em;
+  color: black;
+}
+
+.pfoliopercent {
+  margin-top: 5px;
+  font-size: 0.6em;
+  color: #0ae40a;
+  background-color: black;
+  border-radius: 1em;
+  padding: 1px 2px;
+  text-align: center;
+}
