@@ -28,6 +28,7 @@ import chart from "../../images/chart.png";
 import bnb from "../../images/bnb.png";
 import avatarlogo from "../../images/avatar.png";
 import { Traft_Get_Api } from "../util/APIs";
+import AChart from "./AChart";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -612,52 +613,9 @@ const HomePage = () => {
                     <div className="pfoliopercent">+5.77%</div>
                   </div>
                 </div>
-                <div className="pfoliocontainer">
-                  <div className="cryptoboxleftPan">
-                    <div className="cryptoBoxBTCIcon" style={{ width: "18px" }}>
-                      <img
-                        src={bnb}
-                        alt="BNB"
-                        style={{ width: "100%", height: "100%" }}
-                      ></img>
-                    </div>
-                    <div className="pcryptoBoxDetail">
-                      <div
-                        style={{
-                          fontWeight: "bold",
-                          fontFamily: "roboto",
-                        }}
-                      >
-                        Binance
-                      </div>
-                      <div
-                        style={{
-                          marginTop: "5px",
-                          fontSize: "0.8em",
-                          color: "grey",
-                        }}
-                      >
-                        BNB
-                      </div>
-                    </div>
-                  </div>
-                  <div className="cryptoBoxDetail">
-                    <div
-                      style={{
-                        fontWeight: "bold",
-                        fontFamily: "roboto",
-                        fontSize: "1.2em",
-                      }}
-                    >
-                      25.7%
-                    </div>
-                    <div className="pfoliopercent">+8.77%</div>
-                  </div>
-                </div>
               </div>
-              <div className="drow3right">
-                <img className="chartimg" src={chart} alt="chart"></img>
-              </div>
+
+              <AChart />
             </div>
           </div>
         </div>
